@@ -24,7 +24,7 @@ class WebController extends Controller
  *                 property="welcome",
  *                 type="string",
  *                 example="Welcome"
- *             )
+ *             ),
  *             @OA\Property(
  *                 property="timestamp",
  *                 type="string",
