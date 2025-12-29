@@ -6,7 +6,7 @@
         "version": "1.0.0"
     },
     "paths": {
-        "/ping": {
+        "/api/ping": {
             "get": {
                 "tags": [
                     "System"
@@ -38,7 +38,7 @@
                 }
             }
         },
-        "/products": {
+        "/api/products": {
             "get": {
                 "tags": [
                     "Products"
@@ -167,7 +167,7 @@
                 }
             }
         },
-        "/products/{id}": {
+        "/api/products/{id}": {
             "get": {
                 "tags": [
                     "Products"
@@ -293,7 +293,7 @@
                 }
             }
         },
-        "/categories": {
+        "/api/categories": {
             "get": {
                 "tags": [
                     "Categories"
@@ -349,7 +349,7 @@
                 }
             }
         },
-        "/cart": {
+        "/api/cart": {
             "post": {
                 "tags": [
                     "Cart"
@@ -478,7 +478,7 @@
                 }
             }
         },
-        "/orders": {
+        "/api/orders": {
             "post": {
                 "tags": [
                     "Orders"
@@ -570,7 +570,7 @@
                 }
             }
         },
-        "/user": {
+        "/api/user": {
             "get": {
                 "tags": [
                     "User"
@@ -751,7 +751,7 @@
                 }
             }
         },
-        "/config": {
+        "/api/config": {
             "get": {
                 "tags": [
                     "Config"

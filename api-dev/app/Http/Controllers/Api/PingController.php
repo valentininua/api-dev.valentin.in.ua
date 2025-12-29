@@ -11,7 +11,7 @@ class PingController extends Controller
 {
     /**
      * @OA\Get(
-     *     path="/ping",
+     *     path="/api/ping",
      *     operationId="ping",
      *     summary="Ping API",
      *     description="Проверка доступности API",
@@ -45,7 +45,7 @@ class PingController extends Controller
 
     /**
      * @OA\Get(
-     *     path="/products",
+     *     path="/api/products",
      *     operationId="getProducts",
      *     summary="Список продуктів з фільтрами, пагінацією",
      *     tags={"Products"},
@@ -162,7 +162,7 @@ class PingController extends Controller
 
     /**
      * @OA\Get(
-     *     path="/products/{id}",
+     *     path="/api/products/{id}",
      *     operationId="getProduct",
      *     summary="Деталі окремого продукту",
      *     tags={"Products"},
@@ -247,7 +247,7 @@ class PingController extends Controller
 
     /**
      * @OA\Get(
-     *     path="/categories",
+     *     path="/api/categories",
      *     operationId="getCategories",
      *     summary="Дерево категорій",
      *     tags={"Categories"},
@@ -336,7 +336,7 @@ class PingController extends Controller
 
     /**
      * @OA\Post(
-     *     path="/cart",
+     *     path="/api/cart",
      *     operationId="cartOperations",
      *     summary="Операції з кошиком (додати, оновити, видалити)",
      *     tags={"Cart"},
@@ -420,7 +420,7 @@ class PingController extends Controller
 
     /**
      * @OA\Post(
-     *     path="/orders",
+     *     path="/api/orders",
      *     operationId="orderOperations",
      *     summary="Створення замовлення, отримання історії",
      *     tags={"Orders"},
@@ -519,7 +519,7 @@ class PingController extends Controller
 
     /**
      * @OA\Get(
-     *     path="/user",
+     *     path="/api/user",
      *     operationId="getUserProfile",
      *     summary="Профіль користувача, адреси",
      *     tags={"User"},
@@ -599,7 +599,7 @@ class PingController extends Controller
 
     /**
      * @OA\Put(
-     *     path="/user",
+     *     path="/api/user",
      *     operationId="updateUserProfile",
      *     summary="Оновлення профілю користувача",
      *     tags={"User"},
@@ -646,7 +646,7 @@ class PingController extends Controller
 
     /**
      * @OA\Get(
-     *     path="/config",
+     *     path="/api/config",
      *     operationId="getConfig",
      *     summary="Налаштування магазину, функції, валюти",
      *     tags={"Config"},
