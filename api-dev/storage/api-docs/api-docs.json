@@ -1,0 +1,30 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Dev",
+        "description": "API documentation",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/ping": {
+            "get": {
+                "tags": [
+                    "System"
+                ],
+                "summary": "Ping API",
+                "operationId": "5a0f4865385724c3a9e33818525d4225",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "System",
+            "description": "System"
+        }
+    ]
+}
